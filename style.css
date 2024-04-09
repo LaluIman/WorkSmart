@@ -1,0 +1,9 @@
+body{
+    background: rgb(8,36,94);
+    background: linear-gradient(347deg, rgba(8,36,94,1) 0%, rgba(6,78,130,1) 44%, rgba(0,141,170,1) 100%);
+    overflow-x:hidden;
+}
+
+section{
+    padding: 5rem 1%;
+}
