@@ -7,14 +7,47 @@
 html{
      background: rgb(8,36,94);
     background: linear-gradient(347deg, rgba(8,36,94,1) 0%, rgba(6,78,130,1) 44%, rgba(0,141,170,1) 100%);
+    overflow-x:hidden;
+}
+
+nav{
+    overflow-x:auto;
 }
 
 body{
     background: rgb(8,36,94);
     background: linear-gradient(347deg, rgba(8,36,94,1) 0%, rgba(6,78,130,1) 44%, rgba(0,141,170,1) 100%);
-    overflow-x:hidden;
+
 }
 
 section{
-    padding: 3rem 1%;
+    padding: 2.5rem 1%;
+}
+
+@media (max-width: 768px) {
+    .hero{
+        width:100% !important;
+    }
+
+    .heroimg{
+        width:100% !important;
+    }
+
+    .timeline-middle{
+        display:none;
+    }
+    hr{
+        display:none;
+    }
+
+    .WorkSmart{
+        width:80% !important;
+    }
+
+    .timeline-end{
+        margin-left:-1rem;
+    }
+    .textbe{
+        font-size:2.1rem;
+    }
 }
