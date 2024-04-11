@@ -21,7 +21,15 @@ body{
 }
 
 section{
-    padding: 2.5rem 1%;
+    padding: 5rem 1%;
+}
+
+.we{
+    justify-content:center !important;
+    align-items:center !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 768px) {
@@ -49,5 +57,9 @@ section{
     }
     .textbe{
         font-size:2.1rem;
+    }
+    .we{
+        width:100%;
+        display:fit-content;
     }
 }

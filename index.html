@@ -8,19 +8,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="src/img/logo.png" type="image/x-icon">
 </head>
-<body class="max-w-3xl">
+<body>
     <!-- navbar -->
     <nav>
-    <div class="navbar fixed z-50 backdrop-blur-sm">
+    <div class="navbar fixed z-50 backdrop-blur-md">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
-      <ul tabindex="0" class="menu menu-5xl dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-md w-52">
-        <li><a href="" class="text-white font-semibold text-2xl">Home</a></li>
-        <li><a href="" class="text-white font-semibold text-2xl">Benefits</a></li>
-        <li><a href="" class="text-white font-semibold text-2xl btn btn-primary">Get started</a></li>
+      <ul tabindex="0" class="menu menu-5xl dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-md w-100">
+        <li><a href="" class="text-white font-semibold text-xl">Home</a></li>
+        <li><a href="" class="text-white font-semibold text-xl">Benefits</a></li>
+        <li><a href="" class="text-white font-semibold text-xl">Testimonials</a></li>
+        <a href="" class="btn btn-primary text-white text-xl mb-2">Sign up</a>
+    <a href="" class="btn btn-outline text-white text-xl">Log in</a>
       </ul>
     </div>
    <img draggable="false" src="src/img/logo.png" class="w-10 ml-3" alt="logo">
@@ -29,17 +31,21 @@
     <ul class="menu menu-horizontal px-8">
       <li><a href="" class="text-white text-xl">Home</a></li>
         <li><a href="" class="text-white text-xl">Benefits</a></li>
-        <li><a href="" class="text-white text-xl btn btn-primary">Get started</a></li>
+        <li><a href="" class="text-white text-xl">Testimonials</a></li>
     </ul>
   </div>
-  <div class="navbar-end">
+  <div class="navbar-end hidden lg:flex">
+    <div class="p2">
+    <a href="" class="btn btn-primary text-white">Sign up</a>
+    <a href="" class="btn btn-outline text-white ">Log in</a>
+  </div>
   </div>
 </div>
 </nav>
     <!-- navbar -->
 
     <!-- hero -->
-    <section class="mb-[-4rem] md:mb-[-25rem]">
+    <section class="mb-[-4rem] md:mb-[-10rem]">
         <div class="hero min-h-screen lg:ml-5">
             <div class="hero-content flex-col lg:flex-row-reverse">
               <img draggable="false" src="src/img/hero.png" class="heroimg md:max-w-3xl"/>
@@ -47,8 +53,8 @@
                 <h2 class="text-xl md:text-[1.2rem] font-semibold font-italic text-white pl-2">Elevate Your Career with</h2>
                 <img draggable="false" src="src/img/WorkSmart.png" class="WorkSmart max-w-60 lg:max-w-xl" alt="">
                 <p class="py-5 text-white">Looking for the perfect tool to boost your professional journey? <br> Welcome to WorkSmart - your personalized career companion!</p>
-                <button class="btn btn-primary text-white mt-3">Get Started</button>
-                <button class="btn btn-outline text-white mt-3">Guide how to use <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                <button class= "text-white mt-3 btn btn-primary">Get Started</button>
+                <button class="btn btn-outline text-white mt-3 ml-3">Guide how to use <script src="https://cdn.lordicon.com/lordicon.js"></script>
                     <lord-icon
                         src="https://cdn.lordicon.com/vduvxizq.json"
                         trigger="loop"
@@ -79,7 +85,7 @@
                       <div class="timeline-middle p-4 md:p-5 bg-white rounded-full">
                         <span class="text-sm md:text-4xl">🔍</span>
                       </div>
-                      <div class="timeline-end timeline-box ml-0 md:ml-3"><span class="text-white text-md lg:text-xl font-semibold">Discover Tailored Recommendations:</span><br><span class="text-xs md:text-xl">
+                      <div class="timeline-end timeline-box ml-0 md:ml-[3rem]"><span class="text-white text-md lg:text-xl font-semibold">Discover Tailored Recommendations:</span><br><span class="text-xs md:text-lg">
                         Find the right tools and resources specifically curated for your job and industry. Whether you're a seasoned entrepreneur or just starting your career journey, WorkSmart has got you covered!
                    </span>
                       </div>
@@ -90,7 +96,7 @@
                       <div class="timeline-middle p-4 md:p-5 bg-white rounded-full">
                         <span class="text-sm md:text-4xl">💼</span>
                       </div>
-                      <div class="timeline-end timeline-box ml-0  md:ml-3"><span class="text-white text-md lg:text-xl font-semibold">Power-Up Your Applications:</span><br><span class="text-xs md:text-xl">
+                      <div class="timeline-end timeline-box ml-0  md:ml-[3rem]"><span class="text-white text-md lg:text-xl font-semibold">Power-Up Your Applications:</span><br><span class="text-xs md:text-lg">
                         From top-notch PowerPoint presentations for savvy businessmen to must-have coding languages for tech enthusiasts, WorkSmart suggests the essential tools to ace your applications.
               </span>
                       </div>
@@ -101,7 +107,7 @@
                       <div class="timeline-middle p-4 md:p-5 bg-white rounded-full">
                         <span class="text-sm md:text-4xl">🎯</span>
                       </div>
-                      <div class="timeline-end timeline-box ml-0 md:ml-3"><span class="text-white text-md lg:text-xl font-semibold">Land Your Dream Job:</span><br><span class="text-xs md:text-xl">
+                      <div class="timeline-end timeline-box ml-0 md:ml-[3rem]"><span class="text-white text-md lg:text-xl font-semibold">Land Your Dream Job:</span><br><span class="text-xs md:text-lg">
                         With WorkSmart, you're not just applying for a job, you're positioning yourself for success. Get the tools you need to stand out from the crowd and land that dream role!
       </span>
                       </div>
@@ -112,6 +118,14 @@
         </div>
     </section>
     <!-- about -->
+
+    <!-- start -->
+      <section class="max-w-full ">
+        <div class="justify-center ">
+          <img draggable="false" src="src/img/we.png" class="we max-w-6xl" alt="">
+        </div>
+      </section>
+    <!-- s -->
 
     <!-- logo -->
     <div class="bg-white py-24 sm:py-32">
@@ -127,13 +141,14 @@
         </div>
       </div>
     <!-- logo -->
+    
 
     <!-- footer -->
     <footer class="footer footer-center p-10 bg-base-100 text-white">
         <aside>
          <img draggable="false" src="src/img/logo.png" class="w-10" alt="">
           <p class="font-bold">
-            WorkSmart <br>Providing reliable tech since 1992
+            WorkSmart <br>Providing reliable tech
           </p> 
           <p>Copyright © 2024 - All right reserved</p>
         </aside> 
