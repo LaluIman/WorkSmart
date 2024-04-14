@@ -1902,10 +1902,6 @@ html {
   position: fixed;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -1925,6 +1921,10 @@ html {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-5 {
@@ -1955,10 +1955,6 @@ html {
   margin-top: 0.75rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .grid {
   display: grid;
 }
@@ -1987,28 +1983,24 @@ html {
   width: 1.25rem;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
 .w-full {
   width: 100%;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
 }
 
 .max-w-60 {
   max-width: 15rem;
 }
 
+.max-w-6xl {
+  max-width: 72rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .max-w-lg {
@@ -2017,19 +2009,6 @@ html {
 
 .max-w-xs {
   max-width: 20rem;
-}
-
-.max-w-full {
-  max-width: 100%;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
-}
-
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
 }
 
 .grid-flow-col {
@@ -2042,10 +2021,6 @@ html {
 
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -2108,10 +2083,6 @@ html {
   padding: 1rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -2138,11 +2109,6 @@ html {
 
 .text-center {
   text-align: center;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-lg {
@@ -2228,40 +2194,16 @@ html {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-\[-25rem\] {
-    margin-bottom: -25rem;
-  }
-
-  .md\:ml-3 {
-    margin-left: 0.75rem;
-  }
-
-  .md\:mr-\[-40rem\] {
-    margin-right: -40rem;
-  }
-
-  .md\:ml-5 {
-    margin-left: 1.25rem;
+  .md\:mb-\[-10rem\] {
+    margin-bottom: -10rem;
   }
 
   .md\:ml-\[3rem\] {
     margin-left: 3rem;
   }
 
-  .md\:mb-\[-26rem\] {
-    margin-bottom: -26rem;
-  }
-
-  .md\:mb-\[-30rem\] {
-    margin-bottom: -30rem;
-  }
-
-  .md\:mb-\[-3rem\] {
-    margin-bottom: -3rem;
-  }
-
-  .md\:mb-\[-10rem\] {
-    margin-bottom: -10rem;
+  .md\:mr-\[-40rem\] {
+    margin-right: -40rem;
   }
 
   .md\:max-w-3xl {
@@ -2270,10 +2212,6 @@ html {
 
   .md\:max-w-lg {
     max-width: 32rem;
-  }
-
-  .md\:max-w-full {
-    max-width: 100%;
   }
 
   .md\:p-5 {
@@ -2292,11 +2230,6 @@ html {
 
   .md\:text-\[1\.2rem\] {
     font-size: 1.2rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-lg {
@@ -2358,11 +2291,6 @@ html {
 
   .lg\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }
